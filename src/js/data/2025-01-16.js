@@ -17,22 +17,20 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove Non-Girls",
     key: "girl",
-    tooltip: "Disable this to remove all non-female characters."
+    tooltip: "Disable this to remove all non-female characters.",
+    checked: false
   },
   {
     name: "Remove Anomalies",
     key: "notanomaly",
-    tooltip: "Disable this to remove all anomaly characters."
+    tooltip: "Disable this to remove all anomaly characters.",
+    checked: false
   },
   {
     name: "Remove Humans",
     key: "nothuman",
-    tooltip: "Disable this to remove all human characters."
-  },
-  {
-    name: "Remove Complex-Races",
-    key: "nothuman",
-    tooltip: "Disable this to remove all human characters."
+    tooltip: "Disable this to remove all human characters.",
+    checked: false
   }
 ];
 
