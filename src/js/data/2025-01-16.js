@@ -16,20 +16,20 @@ dataSet[dataSetVersion].options = [
   },
   {
     name: "Remove Non-Girls",
-    key: "girl",
-    tooltip: "Disable this to remove all non-female characters.",
+    key: "notgirl",
+    tooltip: "Check this to remove all non-female characters.",
     checked: false
   },
   {
     name: "Remove Anomalies",
-    key: "notanomaly",
-    tooltip: "Disable this to remove all anomaly characters.",
+    key: "anomaly",
+    tooltip: "Check this to remove all anomaly characters.",
     checked: false
   },
   {
     name: "Remove Humans",
-    key: "nothuman",
-    tooltip: "Disable this to remove all human characters.",
+    key: "human",
+    tooltip: "Check this to remove all human characters.",
     checked: false
   }
 ];
@@ -40,8 +40,7 @@ dataSet[dataSetVersion].characterData = [
     img: "eumKJPj.png",
     opts: {
       affiliations: ["Omega", "Invin"],
-      girl: true,
-      notanomaly: true
+      human: true
     }
   },
   {
@@ -49,8 +48,7 @@ dataSet[dataSetVersion].characterData = [
     img: "WfkP0Sk.png",
     opts: {
       affiliations: ["Invin"],
-      girl: true,
-      notanomaly: true
+      human: true
     },
   },
   {
@@ -58,8 +56,7 @@ dataSet[dataSetVersion].characterData = [
     img: "5FPrjWP.png",
     opts: {
       affiliations: ["Invin"],
-      girl: true,
-      notanomaly: true
+      human: true
     }
   },
   {
@@ -67,8 +64,7 @@ dataSet[dataSetVersion].characterData = [
     img: "xMG7xx4.png",
     opts: {
       affiliations: ["Omega"],
-      girl: true,
-      notanomaly: true
+      human: true
     }
   },
   {
@@ -76,7 +72,8 @@ dataSet[dataSetVersion].characterData = [
     img: "5FPrjWP.png",
     opts: {
       affiliations: ["HDO"],
-      notanomaly: true
+      notgirl: true,
+      human: true
     }
   },
   {
@@ -84,8 +81,7 @@ dataSet[dataSetVersion].characterData = [
     img: "eJZrjVl.png",
     opts: {
       affiliations: ["Unaf"],
-      girl: true,
-      notanomaly: true
+      human: true
     }
   },
   {
@@ -93,7 +89,8 @@ dataSet[dataSetVersion].characterData = [
     img: "5FPrjWP.png",
     opts: {
       affiliations: ["Unaf"],
-      nothuman: true
+      notgirl: true,
+      anomaly: true
     }
   },
   {
@@ -101,8 +98,7 @@ dataSet[dataSetVersion].characterData = [
     img: "5pPWsQc.png",
     opts: {
       affiliations: ["Unaf"],
-      girl: true,
-      nothuman: true
+      anomaly: true
     }
   },
   {
@@ -110,7 +106,8 @@ dataSet[dataSetVersion].characterData = [
     img: "W0ibNI6.png",
     opts: {
       affiliations: ["Unaf"],
-      nothuman: true
+      notgirl: true,
+      anomaly: true
     }
   },
   {
@@ -118,7 +115,8 @@ dataSet[dataSetVersion].characterData = [
     img: "3JLfw67.png",
     opts: {
       affiliations: ["Unaf"],
-      notanomaly: true
+      notgirl: true,
+      human: true
     }
   },
   {
@@ -126,7 +124,8 @@ dataSet[dataSetVersion].characterData = [
     img: "9mB0Ems.png",
     opts: {
       affiliations: ["Unaf"],
-      notanomaly: true
+      notgirl: true,
+      human: true
     }
   },
   {
@@ -134,8 +133,7 @@ dataSet[dataSetVersion].characterData = [
     img: "BM1PTdD.png",
     opts: {
       affiliations: ["Unaf"],
-      girl: true,
-      notanomaly: true
+      human: true
     }
   },
   {
@@ -143,7 +141,8 @@ dataSet[dataSetVersion].characterData = [
     img: "WiwwRPS.png",
     opts: {
       affiliations: ["Unaf"],
-      nothuman: true
+      notgirl: true,
+      anomaly: true
     }
   },
   {
@@ -151,8 +150,7 @@ dataSet[dataSetVersion].characterData = [
     img: "5FPrjWP.png",
     opts: {
       affiliations: ["Unaf"],
-      girl: true,
-      nothuman: true
+      anomaly: true
     }
   },
   {
@@ -160,7 +158,8 @@ dataSet[dataSetVersion].characterData = [
     img: "5FPrjWP.png",
     opts: {
       affiliations: ["Unaf"],
-      nothuman: true
+      notgirl: true,
+      anomaly: true
     }
   },
   {
@@ -168,8 +167,7 @@ dataSet[dataSetVersion].characterData = [
     img: "5FPrjWP.png",
     opts: {
       affiliations: ["Unaf"],
-      girl: true,
-      nothuman: true
+      anomaly: true
     }
   },
   {
@@ -177,7 +175,8 @@ dataSet[dataSetVersion].characterData = [
     img: "5FPrjWP.png",
     opts: {
       affiliations: ["Unaf"],
-      notanomaly: true
+      notgirl: true,
+      human: true
     }
   },
   {
@@ -185,7 +184,8 @@ dataSet[dataSetVersion].characterData = [
     img: "5FPrjWP.png",
     opts: {
       affiliations: ["Unaf"],
-      notanomaly: true
+      notgirl: true,
+      human: true
     }
   },
   {
@@ -193,7 +193,8 @@ dataSet[dataSetVersion].characterData = [
     img: "5FPrjWP.png",
     opts: {
       affiliations: ["Unaf"],
-      notanomaly: true
+      notgirl: true,
+      human: true
     }
   },
   {
@@ -201,7 +202,8 @@ dataSet[dataSetVersion].characterData = [
     img: "5FPrjWP.png",
     opts: {
       affiliations: ["Unaf"],
-      notanomaly: true
+      notgirl: true,
+      human: true
     }
   },
 ];
